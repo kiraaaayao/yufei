@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.index {
+    position: relative;
+}
+
+.bg {
+    background: url("../img/blue-bg.png") no-repeat;
+    width: 100vw;
+    height: 33vh;
+    background-size: 100% 100%;
+}
+
+.text {
+    width: 88%;
+    height: auto;
+    margin: 40px 6%;
+    position: relative;
+}
+
+.content {
+    width: 90%;
+    height: 510px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgb(0 0 0 / 40%);
+    background: #fff;
+    margin: 0 5%;
+    position: absolute;
+    top: 12vh;
+}
+.c_b_g{
+    height: calc(510px - 12vh);
+    width: 100%;
+}
+@media screen and (max-width: 360px) {
+    .content{
+        top: 13vh;
+    }
+    .c_b_g{
+        height: calc(510px - 13vh);
+    }
+}
+.content > div {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    width: 90%;
+    margin: 0 auto;
+    padding: .2rem 0;
+    font-size: 1.3rem;
+    justify-content: space-between;
+}
+
+.x_l {
+    background: #1e90ff;
+    border-radius: 0.8rem;
+    padding: .3rem;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.j_z {
+    justify-content: center;
+}
+
+.logo {
+    width: 180px;
+    height: 180px;
+}
+
+.time {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: .2rem 0;
+}
+
+.q_x {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: rgb(160, 160, 160);
+}
+
+.green {
+    color: #55b957;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    line-height: 24px;
+    font-size: 1rem;
+}
+
+.submit {
+    background: rgb(91, 145, 201);
+    border: 0px;
+    height: 28px;
+    width: 180px;
+    border-radius: 5px;
+    line-height: 30px;
+    color: #fff;
+    font-size: .7rem;
+    margin: 0 auto .3rem;
+}
+
+.t_x {
+    width: 100%;
+    text-align: center;
+    line-height: 24px;
+    font-size: 1rem;
+    color: #6b6b6b;
+    margin-top: 10px;
+}
+
+.z_d {
+    width: 100%;
+    text-align: center;
+    line-height: 24px;
+    font-size: 1rem;
+    color: #6b6b6b;
+}
+
+.bottom > div {
+    color: #0101e4;
+    border-bottom: 1px solid #0101e4;
+    font-weight: normal;
+    margin-top:.7rem;
+
+}
+
+.bottom > div:first-child {
+    margin-right: .7rem;
+}
+
+.bottom > div:last-child {
+    margin-left: .7rem;
+}
+.foot{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    display: flex;
+    top:-2rem;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: #999;
+    font-weight: normal;
+}
+.w_t{
+    color: #4484fa;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+@media screen and (max-width: 320px) {
+.foot{
+    font-size: 14px;
+}
+}
